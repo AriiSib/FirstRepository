@@ -13,5 +13,6 @@ public class Main {
             algorithm.calcKaprekar();
             Speaker.result(algorithm.getKaprekarNumber());
         } while (algorithm.maybeContinue());
+		System.out.println("Goodbay User");
     }
 }
